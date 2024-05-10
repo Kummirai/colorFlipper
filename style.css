@@ -40,10 +40,11 @@ main{
   align-items: center;
 }
 .my-color p{
-  background-color: #272425;
+  background-color: white;
   padding: 20px 30px;
-  color: white;
+  color: #42445A;
   font-size: 2rem;
+  border: 1px solid #9C9EB9;
 }
 
 .btn{
