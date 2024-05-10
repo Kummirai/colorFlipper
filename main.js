@@ -2,6 +2,7 @@ const background = document.querySelector('main');
 const myBtn = document.querySelector('.btn');
 const myColor = document.querySelector('span');
 const myDiv = document.querySelector('p');
+const logo = document.querySelector('h1');
 
 myBtn.addEventListener('click', randomColor);
 
@@ -16,5 +17,5 @@ function randomColor() {
   background.style.backgroundColor = color;
   myColor.style.color = color;
   myColor.innerHTML = color;
-  myDiv.style.border = none;
+  logo.style.color= color;
 };
