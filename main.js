@@ -18,3 +18,4 @@ function randomColor() {
   myColor.style.color = color;
   myColor.innerHTML = color;
   logo.style.color= color;
+}
